@@ -43,6 +43,7 @@ public class libraryPdf extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_library_pdf);
+        getSupportActionBar().setTitle("library iTextPdf");
 
         mContentEditText = findViewById(R.id.edtTextContent);
         mCreateButton = findViewById(R.id.btnToPDF);
